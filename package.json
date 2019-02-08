@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "uibench-lit",
+  "version": "0.1.0",
+  "description": "UI Benchmark: Lit",
+  "homepage": "https://github.com/localvoid/uibench-lit",
+  "repository": "https://github.com/localvoid/uibench-lit",
+  "author": {
+    "name": "Boris Kaul",
+    "email": "localvoid@gmail.com",
+    "url": "https://github.com/localvoid"
+  },
+  "keywords": [
+    "lit",
+    "uibench",
+    "benchmark"
+  ],
+  "scripts": {
+    "watch": "rollup -c -w",
+    "dist": "rollup -c"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "rollup": "1.1.2",
+    "rollup-plugin-minify-html-literals": "^1.1.2",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "4.0.4"
+  }
+}
